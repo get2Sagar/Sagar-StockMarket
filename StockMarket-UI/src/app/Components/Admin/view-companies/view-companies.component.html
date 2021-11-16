@@ -1,0 +1,33 @@
+<div class="container">
+
+    <table class="table table-striped table-hover">
+      <thead>
+        <tr>
+          <th>Company Name</th>
+          <th>CEO</th>
+          <th>Turnover(in cr)</th>
+          <th>Board of Directors</th>
+          <th>Listed in Stock Exchange</th>
+          <th>Brief</th>
+          <th>Stock Code</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr *ngFor="let item of companies">
+          <td>{{item.companyName}}</td>
+          <td>{{item.ceo}}</td>
+          <td>{{item.turnover}}</td>
+          <td>{{item.boardOfDirectors}}</td>
+          <td>{{item.listedInSe}}</td>
+          <td>{{item.brief}}</td>
+          <td>{{item.stockCode}}</td>
+         <td>
+            <button on-click='Getitem(item.companyName)'>Details</button>
+               
+         </td>
+        </tr>
+      </tbody>
+    </table>
+  
+  </div>
+  

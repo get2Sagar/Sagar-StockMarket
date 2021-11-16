@@ -1,0 +1,38 @@
+<div class="container">
+    <div class="row">
+      <label>Company Name</label>
+      <input type="text" class="form-control" [(ngModel)]="company.companyName">
+    </div>
+    <div class="row">
+      <label>CEO</label>
+      <input type="text" class="form-control" [(ngModel)]="company.ceo">
+    </div>
+    <div class="row">
+      <label>Turnover</label>
+      <input type="number" class="form-control" [(ngModel)]="company.turnover">
+    </div>
+    <div class="row">
+      <label>Board of Directors</label>
+      <input type="string" class="form-control" [(ngModel)]="company.boardOfDirectors">
+    </div>
+    <div class="row">
+      <label>Listed in Stock Exchange</label>
+      <input type="string" class="form-control" [(ngModel)]="company.listedInSe">
+    </div>
+    <div class="row">
+        <label>Brief</label>
+        <input type="text" class="form-control" [(ngModel)]="company.brief">
+    </div>
+    <div class="row">
+        <label>Stock Code</label>
+        <input type="text" class="form-control" [(ngModel)]="company.stockCode">
+    </div>
+    <div class="row">
+        <label>Sector ID</label>
+        <input type="text" class="form-control" [(ngModel)]="company.sectorId">
+    </div>
+    <div class="row">
+      <button on-click='AddCompany()'>Add</button>
+    </div>
+  </div>
+  

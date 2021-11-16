@@ -1,0 +1,16 @@
+{
+  "Version": 1,
+  "ProjectMap": {
+    "3258dc44-9286-4428-ae49-f9f049fa2e95": {
+      "ProjectGuid": "3258dc44-9286-4428-ae49-f9f049fa2e95",
+      "DisplayName": "StockMarket.Admin",
+      "ColorIndex": 0
+    },
+    "aef3369e-bf2f-4ada-8a8e-fd8723849d64": {
+      "ProjectGuid": "aef3369e-bf2f-4ada-8a8e-fd8723849d64",
+      "DisplayName": "StockMarket.AccountAPI",
+      "ColorIndex": 1
+    }
+  },
+  "NextColorIndex": 2
+}
